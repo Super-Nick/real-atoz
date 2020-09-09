@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/real-atoz/static/css/main.5f361e03.chunk.css",
+    "main.js": "/real-atoz/static/js/main.c9e5292c.chunk.js",
+    "main.js.map": "/real-atoz/static/js/main.c9e5292c.chunk.js.map",
+    "runtime-main.js": "/real-atoz/static/js/runtime-main.ed875f52.js",
+    "runtime-main.js.map": "/real-atoz/static/js/runtime-main.ed875f52.js.map",
+    "static/js/2.2a5174e1.chunk.js": "/real-atoz/static/js/2.2a5174e1.chunk.js",
+    "static/js/2.2a5174e1.chunk.js.map": "/real-atoz/static/js/2.2a5174e1.chunk.js.map",
+    "index.html": "/real-atoz/index.html",
+    "precache-manifest.512de11ffc808afacb076f3f3862c79b.js": "/real-atoz/precache-manifest.512de11ffc808afacb076f3f3862c79b.js",
+    "service-worker.js": "/real-atoz/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/real-atoz/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.2a5174e1.chunk.js.LICENSE.txt": "/real-atoz/static/js/2.2a5174e1.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/real-atoz/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ed875f52.js",
+    "static/js/2.2a5174e1.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.c9e5292c.chunk.js"
+  ]
+}
