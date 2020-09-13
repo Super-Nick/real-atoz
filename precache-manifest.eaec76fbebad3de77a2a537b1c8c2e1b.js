@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "85a5a9a3f35b15072ebe323b20271b58",
+    "revision": "4c4e6464bdb50a3cd9316fc95df133de",
     "url": "/real-atoz/index.html"
   },
   {
-    "revision": "5db50ab0d8671c4fef77",
-    "url": "/real-atoz/static/css/main.932318ef.chunk.css"
+    "revision": "bfe3134633e4f8125861",
+    "url": "/real-atoz/static/css/main.aaf0b666.chunk.css"
   },
   {
     "revision": "1ab1f31e3cd0415ef68b",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/real-atoz/static/js/2.27d37efa.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5db50ab0d8671c4fef77",
+    "revision": "bfe3134633e4f8125861",
     "url": "/real-atoz/static/js/main.642857b7.chunk.js"
   },
   {
