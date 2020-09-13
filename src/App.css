@@ -1,0 +1,135 @@
+.App {
+  text-align: center;
+}
+
+.atoz-template {
+  width: 90%;
+  height: 90%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: auto;
+  position: absolute;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.main-title {
+  background: white;
+  height: 31%;
+  font-size: 8em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.t_Contents {
+  background: white;
+  height: 23%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.t_Contents_foot {
+  background: white;
+  height: 14%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.link_Style {
+  text-decoration: none;
+}
+
+/* 게임 페이지 */
+.timer {
+  background: white;
+  height: 25%;
+  font-size: 5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.game_template {
+  background: white;
+  height: 65%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.game_div {
+  height: 100%;
+  width: 25%;
+  align-items: center;
+  justify-content: center;
+}
+
+.game_inner_div {
+  background-color: black;
+  border: 4px double white;
+  height: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.game_button {
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  font-size: 4em;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* 랭크 페이지 */
+.t_Contents_rank {
+  background: white;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rank_title {
+  width: 18%;
+  border-bottom: 4px solid black;
+  font-size: 2em;
+  display: grid;
+  align-items: right;
+  justify-content: right;
+}
+
+.rank_recode {
+  width: 56%;
+  font-size: 2em;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rank_space {
+  width: 13%;
+}
+
+/* 설명 페이지 */
+.t_Contents_rule {
+  background: white;
+  height: 55%;
+  font-size: 1.3em;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
