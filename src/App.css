@@ -70,8 +70,6 @@
 }
 
 .game_inner_div {
-  background-color: black;
-  border: 4px double white;
   height: 25%;
   display: flex;
   align-items: center;
@@ -80,6 +78,7 @@
 
 .game_button {
   background-color: black;
+  border: 4px double white;
   height: 100%;
   width: 100%;
   font-size: 4em;
