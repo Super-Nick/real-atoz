@@ -1,5 +1,6 @@
 import React from "react";
-import img_rank from "./img/Rank.png";
+import img_title from "./img/AtoZ_title.png";
+import img_goBack from "./img/GoBack.png";
 
 function RankList({ rank }) {
   return (
@@ -28,7 +29,9 @@ const Rank = (props) => {
 
   return (
     <div className="atoz-template">
-      <div className="main-title">AtoZ</div>
+      <div className="main-title">
+        <img src={img_title} alt="title_image" className="title_img" />
+      </div>
 
       <RankList rank={props.location.state.recodeArray[0]} />
       <RankList rank={props.location.state.recodeArray[1]} />
@@ -36,8 +39,15 @@ const Rank = (props) => {
       <RankList rank={props.location.state.recodeArray[3]} />
       <RankList rank={props.location.state.recodeArray[4]} />
 
+      <div className="rank_space"></div>
+
       <div className="t_Contents_foot">
-        <img src={img_rank} alt="GoBack" onClick={fn_goBack} />
+        <img
+          src={img_goBack}
+          alt="GoBack"
+          onClick={fn_goBack}
+          className="back_img"
+        />
       </div>
     </div>
   );

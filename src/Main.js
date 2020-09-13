@@ -3,6 +3,7 @@ import { Route, Link, withRouter } from "react-router-dom";
 import Game from "./Game";
 import Rank from "./Rank";
 import Rule from "./Rule";
+import img_title from "./img/AtoZ_title.png";
 import img_start from "./img/Start.png";
 import img_rank from "./img/Rank.png";
 import img_howtoplay from "./img/HowToPlay.png";
@@ -82,10 +83,12 @@ const Main = ({ location }) => {
   }
   return (
     <div className="atoz-template">
-      <div className="main-title">AtoZ</div>
+      <div className="main-title">
+        <img src={img_title} alt="title_image" className="title_img" />
+      </div>
       <div className="t_Contents">
         <Link to="/Game" className="link_Style">
-          <img src={img_start} alt="START" />
+          <img src={img_start} alt="START" className="button_img" />
         </Link>
       </div>
       <div className="t_Contents">
@@ -93,12 +96,12 @@ const Main = ({ location }) => {
           to={{ pathname: "/Rank/", state: { recodeArray: recodeArray } }}
           className="link_Style"
         >
-          <img src={img_rank} alt="RANK" />
+          <img src={img_rank} alt="RANK" className="button_img" />
         </Link>
       </div>
       <div className="t_Contents">
         <Link to="/Rule" className="link_Style">
-          <img src={img_howtoplay} alt="HowToPlay" />
+          <img src={img_howtoplay} alt="HowToPlay" className="button_img" />
         </Link>
       </div>
 

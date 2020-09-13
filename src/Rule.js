@@ -1,5 +1,7 @@
 import React from "react";
-import img_howtoplay from "./img/HowToPlay.png";
+import img_title from "./img/AtoZ_title.png";
+import img_rule from "./img/rule.png";
+import img_goBack from "./img/GoBack.png";
 
 const Rule = (props) => {
   const fn_goBack = () => {
@@ -13,25 +15,19 @@ const Rule = (props) => {
 
   return (
     <div className="atoz-template">
-      <div className="main-title">AtoZ</div>
+      <div className="main-title">
+        <img src={img_title} alt="title_image" className="title_img" />
+      </div>
       <div className="t_Contents_rule">
-        세상에서 가장
-        <br />
-        손이 빠른 자가 누구인가?
-        <br />
-        Who is the Best?
-        <br />
-        <br />
-        알파벳 순서대로 눌러라
-        <br />
-        Press A to Z<br />
-        <br />
-        게임은 시작되었다
-        <br />
-        Game has begun
+        <img src={img_rule} alt="rule_image" className="rule_img" />
       </div>
       <div className="t_Contents_foot">
-        <img src={img_howtoplay} alt="GoBack" onClick={fn_goBack} />
+        <img
+          src={img_goBack}
+          alt="GoBack"
+          onClick={fn_goBack}
+          className="back_img"
+        />
       </div>
     </div>
   );
